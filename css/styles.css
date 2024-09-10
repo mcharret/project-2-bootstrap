@@ -1,0 +1,54 @@
+/* Apply a blue ocean color scheme */
+body {
+    background-color: #e0f7fa; /* Light cyan background */
+    color: #00796b; /* Deep teal text color */
+}
+
+.navbar {
+    background-color: #01579b; /* Dark blue for navbar */
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important; /* White text for navbar links */
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #b3e5fc !important; /* Light blue on hover */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for carousel captions */
+    color: #ffffff; /* White text for captions */
+}
+
+.btn-primary {
+    background-color: #0288d1; /* Ocean blue buttons */
+    border-color: #0288d1; /* Border color matches button */
+}
+
+.btn-primary:hover {
+    background-color: #0277bd; /* Slightly darker blue on hover */
+    border-color: #0277bd; /* Border color matches button */
+}
+
+.form-control {
+    border-color: #0288d1; /* Ocean blue border for form inputs */
+}
+
+.form-control:focus {
+    border-color: #01579b; /* Darker blue for focused input */
+    box-shadow: 0 0 0 0.2rem rgba(1, 87, 155, 0.25); /* Blue shadow on focus */
+}
+
+.card {
+    border: 1px solid #0288d1; /* Blue border for cards */
+    border-radius: 0.5rem; /* Slightly rounded corners for cards */
+}
+
+.card-title {
+    color: #01579b; /* Dark blue text for card titles */
+}
+
+.card-body {
+    background-color: #e0f2f1; /* Very light cyan for card body */
+}

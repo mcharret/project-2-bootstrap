@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean Earth - Gallery</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand text-white" href="home.html">Clean Earth</a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="home.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    About
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="mission.html">Our Mission</a>
+                    <a class="dropdown-item" href="team.html">Our Team</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Campaigns
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                    <a class="dropdown-item" href="clean-oceans.html">Clean Oceans</a>
+                    <a class="dropdown-item" href="save-forests.html">Save the Forests</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Image Gallery with Carousel -->
+<div class="container mt-5">
+    <h2 class="text-center">Our Events and Actions</h2>
+
+    <!-- Bootstrap Carousel -->
+    <div id="galleryCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#galleryCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#galleryCarousel" data-slide-to="1"></li>
+            <li data-target="#galleryCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/event2.jpg" class="d-block w-100" alt="Event 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Event 1: Ocean Cleanup Drive</h5>
+                    <p>Volunteers working together to remove plastic from beaches and oceans.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/event3.png" class="d-block w-100" alt="Event 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Event 2: Reforestation Project</h5>
+                    <p>Planting trees in deforested areas to restore the ecosystem.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/event1.png" class="d-block w-100" alt="Event 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Event 3: Environmental Awareness Campaign</h5>
+                    <p>Educating communities about the importance of sustainability.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <a class="carousel-control-prev" href="#galleryCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#galleryCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+<!-- Bootstrap JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
